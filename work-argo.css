@@ -1,0 +1,429 @@
+.argo_mockup{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+h2, p{
+    margin: 10px 0 10px 0;
+}
+
+h4{
+    text-transform: uppercase;
+}
+
+.role h4{
+    border-bottom: 1px solid #dedede;
+    padding: 8px 0 8px 0;
+}
+
+.role >ul>li{
+    border-radius: 8px;
+    background-color: #fffffe;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.04);
+}
+
+.problem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color:#212530;
+    margin: 0;
+    width: 100%;
+}
+
+.problem h4{
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+
+.problem p{
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.research{
+    width: 100%;
+    height: 100%;
+}
+
+.research-container{
+    display: flex;
+}
+
+.research-container>div{
+    padding: 1rem;
+}
+
+.research ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.research ul li{
+    border-radius: 8px;
+    background-color: #fffffe;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.04);
+    width: 40vw;
+}
+
+.research ul li a{
+    text-decoration: none;
+    color: #212530;
+}
+
+.objectives>ul{
+    display: inline-block;
+}
+
+.objectives ul li{
+    text-transform: capitalize;
+    list-style: disc;
+    background-color: white;
+    list-style-position: inside;
+}
+
+section.personas{
+    padding-top: 0;
+}
+
+.persona-container{
+    background-color: #FFFFF9;
+    display: grid;
+    grid-template-columns: 3fr 6fr;/*change the size for mobile*/
+    margin-top: 1em;
+    align-items: center;
+}
+
+.persona-left, .persona-right{
+    padding: 2rem;
+}
+
+
+.personas h5{
+    font-size: 1.2em;
+    padding: 1em 0;
+}
+
+.personas .bold{
+    font-weight: bold;
+}
+
+.personas p{
+    margin: 0.5em;
+}
+
+.personas div{
+    margin: 2em 0;
+}
+
+div.persona-left{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+div.persona-left img{
+    width: 10vw;
+    margin: 0 auto;
+}
+
+div.persona-right{
+background-color: #212630;
+border-top-left-radius: 2em;
+margin: 0;
+}
+
+
+.persona-right p{
+    color: white;
+}
+
+.persona-right .small{
+    font-size: 0.9em;
+}
+
+
+section.brain-storming{
+    padding-top: 0;
+}
+
+.brain-storming ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.brain-storming ul li{
+    border-radius: 8px;
+    background-color: #fffffe;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.04);
+}
+
+.brain-storming ul li div p{
+    font-weight: bold;
+}
+
+.brain-storming ul li div p:nth-child(1){
+    font-size: 2em;
+    color: #3797CE;
+    margin-bottom: 0;
+}
+
+section.ideation{
+    padding-top: 0;
+}
+
+.ideation-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ideation-container ul li{
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.01);
+}
+
+
+.ideation-container ul li h5{
+    font-size: 1em;
+}
+
+.ideation-left img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section.ia{
+    padding-top: 0;
+}
+
+.ia-container img{
+    width: 100%;
+}
+
+section.userflow{
+    padding-top: 0;
+}
+
+section.journeymap{
+    padding-top: 0;
+}
+
+section.wireframe{
+    padding-top: 0;
+}
+
+section.wireframe h4{
+   text-align: center;
+}
+
+section.inspiration{
+    padding-top: 0;
+}
+
+.inpiration-container{
+    display: flex;
+    padding-top: 4rem;
+}
+
+.inspiration-left{
+    width: 50%;
+}
+
+.inspiration-right{
+    width: 50%;
+}
+
+.inpiration-container img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.inspiration .circle{
+    width: 12rem;
+    height: 12rem;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.icon-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+}
+
+
+.icon img{
+    width: 2.5rem;
+}
+
+.circle p{
+    font-size: 0.6em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.inspiration-desc p{
+    text-align: center;
+}
+
+section.library{
+    padding-top: 0;
+}
+
+section.final{
+    padding-top: 0;
+}
+
+
+section.final h4{
+    margin-bottom: 2rem;
+}
+section.final img{
+    width: 100%;
+}
+
+section.development{
+    padding-top: 0;
+}
+
+
+section.development h4{
+    margin-bottom: 2rem;
+}
+
+.dev-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.video_background{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev-right{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 488px) {
+
+    section{
+        padding: 2rem;
+    }
+
+    .role ul{
+        flex-direction: column;
+    }
+    
+    .research-container{
+        flex-direction: column;
+    }
+
+    .research-container .left ul li{
+        width: 100%;
+    }
+
+    .persona-container{
+        grid-template-columns: 1fr;
+    }
+
+    div.persona-left img{
+        width: 100px;
+    }
+
+    .brain-storming ul{
+        grid-template-columns: 1fr;
+    }
+
+    .ideation-container{
+        grid-template-columns: 1fr;
+    }
+
+    .ia{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .ia h4{
+        padding-left: 2rem;
+    }
+    .ia img{
+        width: 100vw;
+    }
+
+
+
+    .userflow{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .userflow h4{
+        padding-left: 2rem;
+    }
+    .userflow img{
+        width: 100vw;
+    }
+    
+
+    .journeymap{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .journeymap h4{
+        padding-left: 2rem;
+    }
+    .journeymap img{
+        width: 100vw;
+    }
+
+    .wireframe{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .wireframe img{
+        width: 100vw;
+    }
+
+    .inpiration-container{
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .inspiration-left, .inspiration-right{
+        width: 100%;
+    }
+
+    .icon-container{
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .icon-container>div{
+        margin: 1em;
+    }
+
+    .dev-container{
+        grid-template-columns: 1fr;
+    }
+
+
+
+}

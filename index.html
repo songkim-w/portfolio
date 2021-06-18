@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eunsong Kim</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><p>Song's portfolio</p></a>
+        <nav>
+            <div class="menuToggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+                <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>I design solutions to problems</h2>
+            <p>All of us always face problems. And I think designing is not only making something looking good, but also suggesting solutions for the problems.</p>
+            <a href="#work" class="btn">More</a>
+        </div>
+    </section>  
+
+    <section class="work" id="work">
+        <h2>Work</h2>
+        <ul>
+            <li class="list active" data-filter ="all">All</li>
+            <li class="list" data-filter ="works">Work</li>
+            <li class="list" data-filter ="practice">Practice</li>
+            <li class="list" data-filter ="web">Web</li>
+            <li class="list" data-filter ="graphic">Graphic Design</li>
+            
+        </ul>
+        <div class="work_container">
+            <div class="itemBox practice web">
+                <a href="work-argo.html">
+                    <div class="card">
+                        <span></span>
+                        <div class="workImg"><img src="img/argo-logo.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <p>ARGO</p>
+                                <p>UX/UI design / App development</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="itemBox practice web">
+                <a href="work-muko.html">
+                    <div class="card">
+                        <span></span>
+                        <div class="workImg"><img src="img/muko-logo.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <p>MUKO</p>
+                                <p>Brand Design/ Web Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="itemBox practice web">
+                <a href="may/index.html">
+                    <div class="card">
+                        <span></span>
+                        <div class="workImg"><img src="img/may.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <p>May Cute Cat</p>
+                                <p>Web Design / Web Development</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="itemBox works web">
+                <a href="bubblebath/index.html">
+                    <div class="card">
+                        <span></span>
+                        <div class="workImg"><img src="img/work3.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <p>Bubble Bath Spa&Nails</p>
+                                <p>Web Design / Web Development</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="itemBox practice graphic">
+                <a href="work-joy.html">
+                    <div class="card">
+                        <span></span>
+                        <div class="workImg"><img src="img/joy-thum.jpg" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <p>Joy Icon</p>
+                                <p>Icon design/ Graphic design</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="itemBox practice graphic">
+                <a href="img/kim-eunosng-3d-chess-1.png">
+                    <div class="card">
+                        <span></span>
+                        <div class="workImg"><img src="img/kim-eunosng-3d-chess-1.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <p>3D Chess Design</p>
+                                <p>3D design/ Maya</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="itemBox works graphic">
+                <a href="img/poster.jpg">
+                    <div class="card">
+                        <span></span>
+                        <div class="workImg"><img src="img/poster.jpg" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <p>2016 Challenge Parade</p>
+                                <p>Poster Design For 2016 Challenge Parade</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="itemBox works graphic">
+                <a href="img/poster2.jpg">
+                    <div class="card">
+                        <span></span>
+                        <div class="workImg"><img src="img/poster2.jpg" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <p>2016 Challenge Parade</p>
+                                <p>Poster Design For 2016 Challenge Parade</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="itemBox works graphic">
+                <a href="img/qp.jpg">
+                    <div class="card">
+                        <span></span>
+                        <div class="workImg"><img src="img/qp-thum.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <p>QP Cosmetic</p>
+                                <p>Package Design/ Discription Page Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout</h2>
+                <p>Hello, My name is Eunsong Kim. The Web is a little window that connects people. Designing the window for better experiences attracts me, and it is the reason why I study interaction design and development at GBC. Currently, I am in my third year in the programme and looking for an opportunity to grow as an interaction designer and developer. </p>
+                <a href="https://www.linkedin.com/in/songkim0130/" class="btn">Linkedin</a>
+                <a href="img/resume.pdf" class="btn">Resume</a>
+            </div>  
+        
+            <div class="col50">
+                <div class="imgBx">
+                    <div id="container"></div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/607695b5f7ce1827093a3717/1f37jhj8k';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <footer class="copyrightText">
+        <p> &copy; Eunsong Kim</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.list').click(function(){
+                const value = $(this).attr('data-filter');
+                if(value == 'all'){
+                    $('.itemBox').fadeIn();
+                }else{
+                    $('.itemBox').not('.'+value).fadeOut(10);
+                    $('.itemBox').filter('.'+value).fadeIn();
+                }
+            })
+        })
+        $('.list').click(function(){
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+        $(document).ready(function(){
+            $('.card').on('mouseenter', function(e){
+                x = e.pageX - $(this).offset().left,
+                y = e.pageY - $(this).offset().top;
+                $(this).find('span').css({top:y, left:x}) 
+            })
+            $('.card').on('mouseout', function(e){
+                x = e.pageX - $(this).offset().left,
+                y = e.pageY - $(this).offset().top;
+                $(this).find('span').css({top:y, left:x}) 
+            })
+        })
+    </script>
+    <script src="weather.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+    <script>
+        var song = "#d1cdc8",
+            subSong = "#F7EA9E"
+            personal = "#fccf33",
+            design = "#bb002d",
+            subDesign = "#F6c4cd"
+            workStyle = "#054421",
+            subWorkStyle = "#4f7f6e",
+            research = "#7da098"
+            styleGuide = "#07a74a"
+            uxuiDesign= "#00a88e"
+            development ="#0285d2",
+            subDevelopment ="#77a9d7",
+            designTool ="#ec4702",
+            subDesignTools ="#fd9400",
+            dirDist10 = "#FFD265",
+            dirDistLess10 = "#2AA775";
+
+        Highcharts.chart('container', {
+
+        chart: {
+            type: 'networkgraph',
+            marginTop: 80
+        },
+
+        title: {
+            text: ''
+        },
+
+    
+
+        plotOptions: {
+            networkgraph: {
+            keys: ['from', 'to'],
+            layoutAlgorithm: {
+                enableSimulation: true,
+                integration: 'verlet',
+                linkLength: 100
+            }
+            }
+        },
+
+        series: [{
+            marker: {
+            radius: 13,
+            },
+            dataLabels: {
+            enabled: true,
+            linkFormat: '',
+            allowOverlap: true,style: {
+                            textOutline: false 
+                        }
+            },
+            data: [
+            ['Design Tools', 'Adobe Photoshop'],
+            ['Design Tools', 'Adobe Illustrator'],
+            ['Design Tools', 'Adobe XD'],
+            ['Design Tools', 'Figma'],
+            ['Design Tools', '3D Maya'],
+            ['Design Tools', 'Adobe Dimension'],
+            ['Design Tools', 'Adobe After Effect'],
+            
+
+            ['Development', 'HTML'],
+            ['Development', 'CSS'],
+            ['Development', 'JavaScript'],
+
+            ['Work Style', 'Work Hard'],
+            ['Work Style', 'Practice'],
+            ['Work Style', 'Research'],
+            ['Research', 'Inspiration'],
+            ['Research', 'Branding'],
+            ['Research', 'Style Guide'],
+            ['Style Guide', 'UX/UI Design'],
+            ['UX/UI Design', 'Prototyping'],
+            ['UX/UI Design', 'Layout'],
+            ['UX/UI Design', 'User Flow'],
+            ['UX/UI Design', 'Icon'],
+            
+            ['Design Style', 'Simple'],
+            ['Design Style', 'Minimal'],
+            ['Design Style', 'Colourful'],
+            ['Design Style', 'Pixel Perfect'],
+            
+            ['ㄱㅇㅅ', 'INTJ'],
+            ['ㄱㅇㅅ', 'Not An Artist'],
+            ['ㄱㅇㅅ', 'Curious'],
+            ['ㄱㅇㅅ', 'Diligent'],
+            
+            ['Eunsong Kim', 'ㄱㅇㅅ'],
+            ['Eunsong Kim', 'Design Style'],
+            ['Eunsong Kim', 'Work Style'],
+            ['Eunsong Kim', 'Development'],
+            ['Eunsong Kim', 'Design Tools'],
+            ],
+            nodes: [{
+                id: 'Design Style',
+                marker: {
+                radius: 20,
+                },
+                color: design
+            }, {
+                id: 'ㄱㅇㅅ',
+                marker: {
+                radius: 20,
+                },
+                color: personal
+            },
+            {
+                id: 'Eunsong Kim',
+                marker: {
+                radius: 30,
+                },
+                color: song
+            },{
+                id: 'Work Style',
+                marker: {
+                radius: 20,
+                },
+                color: workStyle
+            }, {
+                id: 'Development',
+                marker: {
+                radius: 20,
+                },
+                color: development
+            }, {
+                id: 'Design Tools',
+                marker: {
+                radius: 20,
+                },
+                color: designTool
+            }, {
+                id: 'INTJ',
+                marker: {
+                radius: 10,
+                },
+                color: subSong
+            },{
+                id: 'Not An Artist',
+                marker: {
+                radius: 10,
+                },
+                color: subSong
+            },{
+                id: 'Curious',
+                marker: {
+                radius: 10,
+                },
+                color: subSong
+            },{
+                id: 'Diligent',
+                marker: {
+                radius: 10,
+                },
+                color: subSong
+            },{
+                id: 'Simple',
+                marker: {
+                radius: 10,
+                },
+                color: subDesign
+            },{
+                id: 'Minimal',
+                marker: {
+                radius: 10,
+                },
+                color: subDesign
+            },{
+                id: 'Colourful',
+                marker: {
+                radius: 10,
+                },
+                color: subDesign
+            },{
+                id: 'Pixel Perfect',
+                marker: {
+                radius: 10,
+                },
+                color: subDesign
+            },{
+                id: 'Work Style',
+                marker: {
+                radius: 10,
+                },
+                color: workStyle
+            },{
+                id: 'Work Hard',
+                marker: {
+                radius: 10,
+                },
+                color: subWorkStyle
+            },{
+                id: 'Practice',
+                marker: {
+                radius: 10,
+                },
+                color: subWorkStyle
+            },{
+                id: 'Research',
+                marker: {
+                radius: 10,
+                },
+                color: subWorkStyle
+            },{
+                id: 'Inspiration',
+                marker: {
+                radius: 10,
+                },
+                color: research
+            },{
+                id: 'Branding',
+                marker: {
+                radius: 10,
+                },
+                color: research
+            },{
+                id: 'Style Guide',
+                marker: {
+                radius: 10,
+                },
+                color: research
+            },{
+                id: 'UX/UI Design',
+                marker: {
+                radius: 10,
+                },
+                color: styleGuide
+            },{
+                id: 'Layout',
+                marker: {
+                radius: 10,
+                },
+                color: uxuiDesign
+            },{
+                id: 'Icon',
+                marker: {
+                radius: 10,
+                },
+                color: uxuiDesign
+            },{
+                id: 'User Flow',
+                marker: {
+                radius: 10,
+                },
+                color: uxuiDesign
+            },{
+                id: 'Prototyping',
+                marker: {
+                radius: 10,
+                },
+                color: uxuiDesign
+            },{
+                id: 'HTML',
+                marker: {
+                radius: 10,
+                },
+                color: subDevelopment
+            },{
+                id: 'CSS',
+                marker: {
+                radius: 10,
+                },
+                color: subDevelopment
+            },{
+                id: 'JavaScript',
+                marker: {
+                radius: 10,
+                },
+                color: subDevelopment
+            },{
+                id: 'Adobe Photoshop',
+                marker: {
+                radius: 10,
+                },
+                color: subDesignTools
+            },{
+                id: 'Adobe Illustrator',
+                marker: {
+                radius: 10,
+                },
+                color: subDesignTools
+            },{
+                id: 'Adobe After Effect',
+                marker: {
+                radius: 10,
+                },
+                color: subDesignTools
+            },{
+                id: 'Adobe XD',
+                marker: {
+                radius: 10,
+                },
+                color: subDesignTools
+            },{
+                id: 'Adobe Dimension',
+                marker: {
+                radius: 10,
+                },
+                color: subDesignTools
+            },{
+                id: '3D Maya',
+                marker: {
+                radius: 10,
+                },
+                color: subDesignTools
+            },{
+                id: 'Figma',
+                marker: {
+                radius: 10,
+                },
+                color: subDesignTools
+            },]
+        }]
+        });
+    </script>
+</body>
+</html>

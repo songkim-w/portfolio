@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png">
+    <title>Eunsong Kim</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><p>Song's portfolio</p></a>
+        <nav>
+            <div class="menuToggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="index.html#work" onclick="toggleMenu();">Work</a></li>
+                <li><a href="index.html#about" onclick="toggleMenu();">About</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <section class="work" id="work">
+        <h2>MUKO</h2> 
+        <p>UX/UI Design/ Mobile Application design/ Website design</p>
+
+        <div class="work-wrapper">
+            <div class="work-img-wrapper">
+                <img src="img/muko_detail.png" alt="muko-detail">
+            </div>
+        </div>
+
+    </section>
+
+
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/600c672fc31c9117cb71be66/1eso764l3';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+
+    <footer class="copyrightText">
+        <p> &copy; Eunsong Kim</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.list').click(function(){
+                const value = $(this).attr('data-filter');
+                if(value == 'all'){
+                    $('.itemBox').fadeIn();
+                }else{
+                    $('.itemBox').not('.'+value).fadeOut(10);
+                    $('.itemBox').filter('.'+value).fadeIn();
+                }
+            })
+        })
+        $('.list').click(function(){
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+        $(document).ready(function(){
+            $('.card').on('mouseenter', function(e){
+                x = e.pageX - $(this).offset().left,
+                y = e.pageY - $(this).offset().top;
+                $(this).find('span').css({top:y, left:x}) 
+            })
+            $('.card').on('mouseout', function(e){
+                x = e.pageX - $(this).offset().left,
+                y = e.pageY - $(this).offset().top;
+                $(this).find('span').css({top:y, left:x}) 
+            })
+        })
+    </script>
+ 
+</body>
+</html>
