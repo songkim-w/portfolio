@@ -1,0 +1,422 @@
+.homeDisplay{
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+    grid-template-areas: 
+    "skills profile banner"
+    "click click click";
+    grid-template-rows: 4fr 1fr;
+    grid-gap: 0.5rem;
+    margin-top: 0.5rem;
+    /* margin-top: 14rem; */
+    justify-items: center;
+    align-items: center;
+
+}
+
+.skillLists{
+   grid-area: skills;
+   align-self: start;
+}
+
+.skillLists li{
+    list-style: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-bottom: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.skillLists ul{
+    margin-bottom: 0.5rem;
+}
+
+li:nth-child(1){
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.skillLists li:not(first-child){
+    text-align: center;
+}
+
+
+
+.bannerContainer{
+    grid-area: banner;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.bannerText1{
+    margin-left: 2rem;
+    margin-right: 4rem;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.bannerText1 span{
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+
+.profileContainer{
+    grid-area: profile;
+    justify-self: center;
+    align-self: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.profile{
+    width: 100%;
+    height: 16vw;
+    object-fit: cover;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+
+
+.profile:hover{
+    -webkit-filter: grayscale(0); 
+    filter: grayscale(0);
+}
+
+.introduce{
+    padding: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.click{
+    grid-area: click;
+    position: relative;
+    top:-10%;
+    left: 48%;
+    transform: translateX(-50%);
+    width: 100%;
+    font-size: 3vw;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    letter-spacing:0.1vw;
+    text-align: center;
+    color: #F9F8F3;
+    -webkit-text-stroke: 2px #242424; 
+}
+
+
+
+.click span{
+    position: relative;
+    margin-left: 1rem;
+}
+
+.click svg{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+}
+
+
+.circle{
+    fill: transparent;
+    stroke-width: 2px;
+}
+
+.arrowDown {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-anchor: middle;
+    font-family: 'Noto Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	transform: translateY(0.5rem);
+}
+
+
+.textCurved{
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 200;
+}
+
+.textCurved tspan{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.projectContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+
+}
+
+.textAniContainer{
+    width: 30vw;
+    height: 100%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    background-color: #242424;
+    overflow: hidden;
+}
+
+.textAniContainer p{
+    white-space: nowrap;
+    padding: .4rem 0;
+}
+
+.textAniContainer span{
+    padding: 0 0.5rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing:0.1vw;
+    color: #F9F8F3;
+}
+
+.textAni1{
+    display: inline-block;
+    animation: textAni1 10s linear infinite;
+}
+
+@keyframes textAni1 {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%); 
+    }
+}
+
+.textAni2{
+    display: inline-block;
+    animation: textAni1 10s linear infinite;
+}
+
+@keyframes textAni2 {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%); 
+    }
+}
+
+.projectThumbnails{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    width: 100%;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;  
+    width: 100%;
+
+}
+
+.projectThumbnails>div{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    position: relative;
+    border: 4px solid #242424;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+
+.projectThumbnails>div{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+
+
+.projectThumbnails>div:hover{
+    -webkit-filter: grayscale(0); 
+    filter: grayscale(0);
+}
+
+.projectLink{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.youtubeLearning{
+    background-image: url('../../static/youtube-learning-mockup-500.png');
+    display: block;
+}
+.muko{
+    background-image: url('../../static/muko-pc-500.png');
+}
+.argo{
+    background-image: url('../../static/argo-thumbnail-500.png');
+}
+.cheil{
+    background-image: url('../../static/cheil.png');
+    background-position: center;
+}
+
+
+
+.projectType{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-indent: 0.5rem;
+    border-bottom: 4px solid #242424;
+    font-size: 0.8em;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #F9F8F3;
+}
+
+.projectType span{
+    font-family: 'Noto Sans', sans-serif;
+    padding-right: 0.5rem;
+    border-right: 4px solid #242424;
+}
+
+
+.commingSoon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+@media (max-width: 1023px){
+ 
+    .homeDisplay{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "profile profile"
+        "banner banner"
+        "skills skills"
+        "click click";
+        grid-template-rows: 1fr;
+        /* margin-top: 13rem; */
+    }
+    .bannerContainer{
+        width: calc(100vw - 4rem);
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        box-sizing: border-box;
+   
+    }
+    .bannerText1{
+        font-size: 6vw;
+        margin-right: 2rem;
+        text-align:left;
+    }
+   
+    .skillLists{
+        display: flex;
+        justify-content: space-evenly;
+        width: calc(100vw - 4rem);
+        padding: 1rem 2rem;
+        line-height: 2rem;
+    }
+
+    .skillLists ul:nth-child(2){
+        margin: 0 1rem;
+    }
+
+    .profileContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-right: 2rem;
+    }
+
+    .profile{
+        object-fit: cover;
+        object-position: 10%;
+        margin-left: 2rem;
+    }
+
+    .introduce{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .click{
+        font-size: 5vw;
+        top: -0.5rem;
+        -webkit-text-stroke: 1px #242424; 
+    }
+
+    .click span{
+        margin-left: 0.5rem;
+    }
+    
+    .click svg{
+        width: 50px;
+        height: 50px;
+    }
+    
+    
+    .projectContainer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .textAniContainer{
+        width: calc(100vw - 4rem);
+        margin: 0;
+    }
+
+    .projectThumbnails{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projectThumbnails>div{
+        background-position: center 40%;
+    }
+
+    
+
+
+    
+
+
+}
+
+@media (max-width: 500px){
+    .click{
+        left: 45%;
+    }
+}

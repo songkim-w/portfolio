@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200;400;700&family=Noto+Sans:ital,wght@0,100;0,400;0,700;0,900;1,200;1,900&display=swap');
+/* font-family: 'Newsreader', serif;
+font-family: 'Noto Sans', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #242424;
+    scrollbar-width: 1rem;
+    font-family: 'Newsreader', serif;
+}
+
+html,body{
+    min-height: 100vh;
+    scrollbar-width: 1rem;
+}
+
+body{
+    height: 100%;
+    background:#F9F8F3;
+    overflow-y: scroll;
+
+}
+
+.layout{
+
+    height: 100%;
+   
+}
+
+.content{
+    padding-bottom: 2rem;
+    height: 100%;
+}
+
+
+footer{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+footer .thick{
+    width: calc(100vw - 4rem);
+    height: 4px;
+    margin: 0 auto 4px auto;
+    background-color: #242424;
+}
+
+footer .thin{
+    width: calc(100vw - 4rem);
+    height: 1px;
+    margin: 0 auto;
+    background-color: #242424;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+

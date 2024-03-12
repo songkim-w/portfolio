@@ -1,0 +1,265 @@
+nav{
+    position: relative;
+    /* position: fixed; */
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: #F9F8F3;
+}
+
+
+.date{
+    width: calc(100vw - 4rem);
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: 2rem;
+    text-align: right;
+    font-weight: lighter;
+    font-style: italic;
+    border-bottom: 1px solid #242424;
+    background-color: #F9F8F3;
+}
+
+.navTop{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    padding: 0 2rem;
+    background-color: #F9F8F3;
+    
+}
+
+.logoImg{
+    width: 6vw;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+
+.logoImg:hover{
+    -webkit-filter: grayscale(0); 
+    filter: grayscale(0);
+}
+
+.name{
+    display: none;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    height: 8rem;
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-family: 'Newsreader', serif;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.link{
+    margin-left: 2rem;
+}
+
+.hamburger{
+    display: none;
+}
+
+.slogan{
+    width: calc(100vw - 4rem);
+    margin: 0 auto;
+    text-align: center;
+    transform: translateY(-1.5rem);
+}
+
+.slogan p{
+    padding: 0 1rem 1rem 1rem;
+}
+
+.thin{
+    width: calc(100vw - 4rem);
+    height: 1px;
+    margin: 0 auto;
+    transform: translateY(-0.5rem);
+    background-color: #242424;
+}
+.thick{
+    width: calc(100vw - 4rem);
+    height: 4px;
+    margin: 0 auto;
+    transform: translateY(-4px);
+    background-color: #242424;
+}
+
+.menuLinks{
+    text-align: center;
+    transform: translateY(-80%);
+}
+
+.menuLinks a{
+    position: relative;
+    padding: 0.5rem 1rem 0.2rem 1rem;
+    text-transform: capitalize;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    transition: all 0.5s;
+    line-height: 0.5;
+    border-bottom: 4px solid transparent;
+}
+
+
+.menuLinks a:hover{
+    border-bottom: 4px solid #242424;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sloganM{
+    display: none;
+}
+.menuLinksM{
+    display: none;
+}
+.navLinksM{
+    display: none;
+}
+
+
+
+
+
+
+@media (max-width: 1023px) {
+
+    .date{
+        width: calc(100vw - 4rem);
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .title{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .hamburger{
+        display: flex;
+        font-size: 1.8rem;
+        height: 100%;
+    }
+
+    .navLinks{
+        display: none;
+    }
+    .menuLinks{
+        display: none;
+    }
+
+    .slogan{
+        margin: 2rem auto 0 auto;
+    }
+
+    .slogan p{
+        display: none;
+    }
+
+    .logoImg{
+        width: 100%;
+        height: 2rem;
+        object-fit: contain;
+    }
+
+    
+    @keyframes menuAni {
+        from{
+            left: 50%;
+            transform: translate(-50%, -100%);
+        }
+        to{
+            left: 50%;
+            transform: translate(-50%, -10%);
+        }
+    }
+
+    .navBottom{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        z-index: -10;
+        width: 100%;
+        background: #F9F8F3;
+        animation: menuAni .5s forwards ease-in-out;
+
+    }
+     
+     
+    .navBottom a{
+        padding: 0.5rem 1rem;
+        text-transform: capitalize;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: bold;
+    }
+
+
+    .sloganM{
+        display: block;
+        margin: 1rem;
+    }
+    
+    .menuLinksM{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navLinksM{
+        display: block;
+        margin: 1rem;
+    }
+
+    .navLinksM a:first-child{
+        margin-left: 0;
+    }
+
+ 
+
+
+}
+
+@media (max-width: 500px) {
+
+    .hamburger{
+        display: flex;
+        font-size: 1.4rem;
+        height: 100%;
+    }
+
+    .title{
+        font-size: 100%;
+    }
+
+    .sloganM p{
+        font-size: 0.8rem;
+    }
+
+
+}
+
+
+
+
+
