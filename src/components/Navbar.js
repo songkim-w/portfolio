@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import {Link} from 'gatsby'
-import { FaRegEnvelope, FaLinkedinIn, FaGithub, FaBars } from "react-icons/fa";
+import { FaRegEnvelope, FaLinkedinIn} from "react-icons/fa";
 import { GrMenu} from "react-icons/gr";
 import * as styles from '../styles/navbar.module.css'
 import resume from '../../static/2024_EunsongKim_resume.pdf'

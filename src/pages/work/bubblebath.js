@@ -6,7 +6,7 @@ import Layout from '../../components/Layout';
 
 import * as styles from '../../styles/workProject.module.css';
 
-import { BiArrowBack} from "react-icons/bi";
+import {BiArrowBack} from "react-icons/bi";
 
 import bbMockup from '../../../static/bubblebath-cover.png';
 import wireframe1 from '../../../static/bubblebath-page-0.png'

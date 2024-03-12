@@ -6,7 +6,7 @@ import Layout from '../../components/Layout';
 
 import * as styles from '../../styles/workProject.module.css';
 
-import { BiArrowBack} from "react-icons/bi";
+import {BiArrowBack} from "react-icons/bi";
 
 import costco from '../../../static/cheil_costco.png'
 import leons from '../../../static/cheil_leons.png'

@@ -6,7 +6,7 @@ import Layout from '../../components/Layout';
 
 import * as styles from '../../styles/workProject.module.css';
 
-import { BiArrowBack, BiDotsHorizontalRounded, BiLinkExternal } from "react-icons/bi";
+import {BiArrowBack, BiLinkExternal} from "react-icons/bi";
 
 import argoBg from '../../../static/argo-thumbnail.png';
 import stayHome from '../../../static/argo-stayhome.png';
