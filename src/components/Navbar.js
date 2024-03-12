@@ -34,7 +34,7 @@ export default function Navbar() {
                 <div onClick={ ()=>{ setNavMobile(!navMobile) } }  className={styles.hamburger}><GrMenu></GrMenu></div>
                 <div className={styles.navLinks}>
                     <Link className={styles.link}><a href="mailto:songkim.w@gmail.com"><FaRegEnvelope></FaRegEnvelope></a></Link>
-                    <Link className={styles.link}><a href={resume} target="_blank"><FaLinkedinIn></FaLinkedinIn></a></Link>
+                    <Link className={styles.link}><a href="https://www.linkedin.com/in/songkim0130/" target="_blank"><FaLinkedinIn></FaLinkedinIn></a></Link>
                 </div>
           </div>
           <div className={styles.slogan}> 
