@@ -88,7 +88,7 @@ export default function Home() {
 
         <div className={styles.projectContainer}>
           <div className={styles.textAniContainer}> 
-          <Link className={styles.projectLink} to="/portfolio/work">
+          <Link className={styles.projectLink} to="/work">
             <p>
               <span className={styles.textAni1}> work work work work work work</span>
               <span className={styles.textAni2}> work work work work work work</span>
@@ -102,24 +102,24 @@ export default function Home() {
           <div className={styles.projectThumbnails}>
 
             <div className={styles.cheil}>
-              <Link className={styles.projectLink} to="/portfolio/work/cheil">
+              <Link className={styles.projectLink} to="/work/cheil">
                  <div className={styles.projectType}><span>Cheil</span>Graphic/web Design</div>
               </Link>
             </div>
 
             <div className={styles.youtubeLearning}>
-              <Link className={styles.projectLink} to="/portfolio/work/youtube-learning">
+              <Link className={styles.projectLink} to="/work/youtube-learning">
                 <div className={styles.projectType}><span>YouTube Learning</span>UX/UI DESIGN</div>
               </Link>
             </div>
 
             <div className={styles.muko}>
-              <Link className={styles.projectLink} to="/portfolio/work/muko">
+              <Link className={styles.projectLink} to="/work/muko">
               <div className={styles.projectType}><span>MUKO</span> WEB DESIGN</div>
               </Link>
             </div>
             <div className={styles.argo}>
-              <Link className={styles.projectLink} to='/portfolio/work/muko'>
+              <Link className={styles.projectLink} to='/work/muko'>
                 <div className={styles.projectType}><span>ARGO</span> UX/UI DESIGN </div>
               </Link>  
             </div>

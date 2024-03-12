@@ -141,13 +141,13 @@ export default function Work() {
             <div className={styles.workLeft}>
               <div className={styles.workList} id='workList'>
               
-              <div className='projectTitle' onMouseEnter={onEnter0} onMouseLeave={onLeave}><Link to='/portfolio/work/cheil'><span>Cheil Canada<p>Graphic/ Web design</p></span></Link>00</div>
-                <div className='projectTitle' onMouseEnter={onEnter1} onMouseLeave={onLeave}><Link to='/portfolio/work/youtube-learning'><span>YouTube Learning<p>UX/UI Desizgn</p></span></Link>01</div>
-                <div className='projectTitle' onMouseEnter={onEnter2} onMouseLeave={onLeave}><Link to='/portfolio/work/jjewerly'><span>Jjewerly<p>Web Development/ React</p></span></Link>02</div>
-                <div className='projectTitle' onMouseEnter={onEnter3} onMouseLeave={onLeave}><Link to='/portfolio/work/muko'><span>MUKO<p>Web Design</p></span></Link>03</div>
-                <div className='projectTitle' onMouseEnter={onEnter4} onMouseLeave={onLeave}><Link to='/portfolio/work/argo'><span>ARGO<p>UX/UI Design</p></span></Link>04</div>
-                <div className='projectTitle' onMouseEnter={onEnter5} onMouseLeave={onLeave}><Link to='/portfolio/work/bubblebath'><span>Bubblebath<p>Web development/ Vue</p></span></Link>05</div>
-                <div className='projectTitle' onMouseEnter={onEnter6} onMouseLeave={onLeave}><Link to='/portfolio/work/xsaver'><span>X-Saver<p>Interaction Design</p></span></Link>06</div>
+              <div className='projectTitle' onMouseEnter={onEnter0} onMouseLeave={onLeave}><Link to='/work/cheil'><span>Cheil Canada<p>Graphic/ Web design</p></span></Link>00</div>
+                <div className='projectTitle' onMouseEnter={onEnter1} onMouseLeave={onLeave}><Link to='/work/youtube-learning'><span>YouTube Learning<p>UX/UI Desizgn</p></span></Link>01</div>
+                <div className='projectTitle' onMouseEnter={onEnter2} onMouseLeave={onLeave}><Link to='/work/jjewerly'><span>Jjewerly<p>Web Development/ React</p></span></Link>02</div>
+                <div className='projectTitle' onMouseEnter={onEnter3} onMouseLeave={onLeave}><Link to='/work/muko'><span>MUKO<p>Web Design</p></span></Link>03</div>
+                <div className='projectTitle' onMouseEnter={onEnter4} onMouseLeave={onLeave}><Link to='/work/argo'><span>ARGO<p>UX/UI Design</p></span></Link>04</div>
+                <div className='projectTitle' onMouseEnter={onEnter5} onMouseLeave={onLeave}><Link to='/work/bubblebath'><span>Bubblebath<p>Web development/ Vue</p></span></Link>05</div>
+                <div className='projectTitle' onMouseEnter={onEnter6} onMouseLeave={onLeave}><Link to='/work/xsaver'><span>X-Saver<p>Interaction Design</p></span></Link>06</div>
               
             
   

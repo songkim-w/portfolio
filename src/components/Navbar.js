@@ -20,13 +20,13 @@ export default function Navbar() {
             <p className={styles.date}>{date}</p>
           </div>
           <div className={styles.navTop}>
-              <Link to="/portfolio">
+              <Link to="/">
                   <h1>
                       <img src="/logo.png" alt="logo img" className={styles.logoImg}/>
                       <span className={styles.name}>song kim</span></h1>
               </Link>
                 <div>
-                  <Link to='/portfolio'>
+                  <Link to='/'>
                   <h2 className={styles.title}>Eunsong Kim</h2>
                   </Link>
                    
@@ -44,8 +44,8 @@ export default function Navbar() {
           </div>
 
           <div className={styles.menuLinks}>
-              <Link to="/portfolio/work">Work</Link>
-              <Link to="/portfolio/about">About</Link>
+              <Link to="/work">Work</Link>
+              <Link to="/about">About</Link>
               <a href={resume} target='_blank'>Resume</a>
           </div>
 
@@ -56,8 +56,8 @@ export default function Navbar() {
               <p></p>
             </div>
             <div className={styles.menuLinksM}>
-              <Link to="/portfolio/work">Work</Link>
-              <Link to="/portfolio/about">About</Link>
+              <Link to="/work">Work</Link>
+              <Link to="/about">About</Link>
               <a href={resume} target='_blank'>Resume</a>
             </div>
             <div className={styles.navLinksM}>
